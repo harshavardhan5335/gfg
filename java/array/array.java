@@ -5,7 +5,6 @@ public class array {
     public static void main(String[] args) {
         // Declaring
         int[] array;
-        int array1[];
 
         // Allocating memory to array
         array = new int[10];
