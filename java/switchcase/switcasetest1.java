@@ -3,7 +3,7 @@ package gfg.java.switchcase;
 import java.util.Scanner;
 
 enum Day {
-    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY , friday
+    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY ,
 }
 
 public class switcasetest1 {
@@ -13,7 +13,7 @@ public class switcasetest1 {
         Scanner sc = new Scanner(System.in);
         Day today = Day.FRIDAY;
         switch (today) {
-            case FRIDAY , friday :
+            case FRIDAY :
                 System.out.println("its friday");
                 break;
 
